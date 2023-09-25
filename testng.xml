@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Login Test">
+    <classes>
+      <class name="testcases.LoginPPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name=" PastPurchases Test">
+    <classes>
+      <class name="testcases.Pastpuchases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test thread-count="5" name=" BestSeller Test">
+    <classes>
+      <class name="testcases.BestSellers"/>
+    </classes>
+  </test> <!-- Test -->  
+  
+  
+  <test thread-count="5" name=" New_Releases Test">
+    <classes>
+      <class name="testcases.New_Releases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="moverss and shakers Test">
+    <classes>
+      <class name="testcases.Moverss_And_Shakerss"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
